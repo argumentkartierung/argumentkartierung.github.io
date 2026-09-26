@@ -1,0 +1,42 @@
+- name: Prof. Dr. Anna Müller
+  affiliation: Projektleitung
+  href: https://example.com
+  thumbnail: /content/team/images/user.png
+  description: "Leitet das Projekt und koordiniert die fachliche und didaktische Weiterentwicklung der Argumentkartierung in der Lehre."
+  social:
+    - website: https://example.com
+    - github: https://github.com/example
+    - linkedin: https://linkedin.com
+- name: Sebastian Cacean
+  affiliation: Wissenschaftlicher Mitarbeiter
+  href: https://sebastiancacean.de/
+  thumbnail: /content/team/images/scacean.jpg
+  description: |
+    Sebastian Cacean studierte Physik und Philosophie und war in diversen Forschungsprojekten tätig, in denen er sich mit Fragen der angewandten Ethik, Wissenschaftstheorie und generativer KI beschäftigte. 
+
+    In Forschung und Lehre analysiert er gern gesellschaftsrelevante Debatten, überlegt, wie inhaltsanalytische Methoden mit Hilfe von Sprachmodellen angewendet werden können, um den öffentlichen Diskurs zu analysieren und befasst sich mit der Verwendung von Methoden der Argumentkartierung zur Verbesserung deliberativer Praxis.
+
+    Im Projekt ist Sebastian hauptverantwortlich für die Konzeption der interdisziplinären Seminare.
+  social:
+    - website: https://sebastiancacean.de/
+    - github: https://github.com/xylomorph
+    - linkedin: https://www.linkedin.com/in/sebastian-cacean/
+- name: Maja Fischer
+  affiliation: Studentische Hilfskraft
+  href: https://example.com
+  thumbnail: /content/team/images/user.png
+  description: "Unterstützt die Konzeption und Umsetzung der digitalen Materialien und wirkt an der didaktischen Erprobung mit."
+  social:
+    - website: https://example.com
+    - github: https://github.com/example
+    - twitter: https://twitter.com/example
+- name: Tim Weber
+  affiliation: Lehr- und Lernberatung
+  href: https://example.com
+  thumbnail: /content/team/images/user.png
+  description: "Berät bei der Einbindung der Methode in Lehrformate und unterstützt die fachliche Reflexion in Diskussionen."
+  social:
+    - website: https://example.com
+    - github: https://github.com/example
+    - linkedin: https://linkedin.com
+    - facebook: https://facebook.com

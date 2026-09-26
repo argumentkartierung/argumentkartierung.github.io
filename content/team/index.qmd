@@ -1,0 +1,20 @@
+---
+pagetitle: "Team"
+format:
+  html: default
+listing:
+  - id: team
+    template: team.ejs.md
+    contents: team.yml
+---
+
+::: grid
+::: {#sponsors_banner .g-col-12 .title}
+# Team
+:::
+
+::: {#speakers .g-col-12}
+:::
+
+<div></div>
+:::

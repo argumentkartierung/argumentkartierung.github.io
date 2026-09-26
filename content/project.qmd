@@ -1,0 +1,35 @@
+---
+title: "Das Projekt"
+toc: true
+format:
+  html: default
+---
+
+Der konstruktive Umgang mit Kontroversen ist eine wichtige Qualifikation für Studierende. In Kontroversen stehen verschiedene Thesen und Behauptungen zur Debatte, die durch Argumente begründet und kritisiert werden – je nach Thema unter Berufung auf Werte, empirische Daten oder andere Quellen. Die argumentativen Bezüge zwischen Argumenten und Thesen lassen sich jedoch nicht erschöpfend anhand ihrer Strukturierung in Pro-Kontra-Listen analysieren, da sich Argumente auch aufeinander beziehen können. So sind Argumente beispielsweise selbst Einwänden ausgesetzt, die wiederum entkräftet werden können. Zur Analyse und Darstellung komplexer Argumentbeziehungen wurde in Philosophie, Argumentationstheorie und Critical Thinking die Methode der Argumentkartierung (Argument Mapping) entwickelt.
+
+## Argumentkartierung & Argdown {#methoden}
+
+In Argumentkarten werden die argumentativen Bezüge zwischen Argumenten und Thesen durch grüne Pfeile (Begründung) und rote Pfeile (Kritik) dargestellt. Thesen, dargestellt als weiß hinterlegte Kästen, repräsentieren Aussagen, die durch Argumente begründet oder kritisiert werden. Argumente, dargestellt als farblich hinterlegte Kästen, besitzen eine interne Struktur (Prämissen und Konklusion), die die argumentativen Beziehungen zwischen den Argumenten und den Thesen festlegt. 
+
+```argdown-map
+[Hauptthese]: Hauptthese, die durch Argumente begründet oder kritisiert wird. #pro
+    + <Argument 1>: Argument, das die Hauptthese begründet. #pro
+    + <Argument 2>: Ein weiteres Argument, das die Hauptthese begründet. #pro
+    - <Einwand>: Argument, das einen Einwand gegen die Hauptthese formuliert. #con
+        - <Entkräftung>: Argument, das den Einwand entkräftet. #pro
+```
+
+Argumentkarten können mit unterschiedlichen Anwendungen erstellt werden. Im Prinzip reichen Papier und Stift. [Argdown](https://argdown.org/) ist eine einfache, textbasierte Sprache, die von [Markdown](https://daringfireball.net/projects/markdown/) inspiriert und für die Erstellung von Argumentkarten optimiert ist. Mit ihr lassen sich Argumentkarten kollaborativ erstellen und in verschiedene redaktionelle Prozesse einbinden. Argdown wird bereits in verschiedenen Tools unterstützt (z. B. in [VS Code](https://marketplace.visualstudio.com/items?itemName=christianvoigt.argdown-vscode) und [Obsidian](https://community.obsidian.md/plugins/obsidian-argdown-plugin)).
+
+Indem solche Argumentkarten entworfen, im Dialog mit den Beteiligten evaluiert und überarbeitet werden, lassen sich komplexe Kontroversen besser überblicken und wesentliche Beiträge zur Lösungsfindung erarbeiten.
+
+## Projektziele {#ziele}
+
+In diesem Projekt werden Lehrinhalte und Kurskonzepte entwickelt, mit denen Studierende die Methode der Argumentkartierung erlernen, um Kontroversen konstruktiv begleiten zu können. Sie üben sich darin, relevante Argumente und deren Beziehungen zueinander zu analysieren, sie angemessen darzustellen und diese Darstellungen konstruktiv in den weiteren Verständigungs- und Lösungsprozess einzubringen. 
+
+Dazu werden im Projekt allgemeine und transferierbare Open Educational Resources (OERs) sowie spezifische Konzepte für deren Einsatz in verschiedenen Lehr- und Lernformaten entwickelt. Insgesamt sollen während der Projektlaufzeit vier Kurskonzepte entwickelt werden und erprobt werden:
+
+1. **Grundlagenseminare:** Ein Teil der neuen OERs soll die bestehende Grundausbildung von Philosoph:innen erweitern. Typischerweise lernen Studierende der Philosophie Logik und Argumentationstheorie zur Analyse *einzelner* Argumente. Durch die Methode der Argumentkartierung sollen Studierende befähigt werden, komplexe Zusammenhänge zwischen *mehreren* Argumenten zu analysieren.
+2. **Forschungsseminare:** In Forschungsseminaren wenden Studierende die Methode der Argumentkartierung auf komplexe ethische und philosophische Debatten an, um sich kritisch mit ihnen auseinanderzusetzen und eigene Positionen systematisch zu entwickeln. Nach der gemeinsamen Rekonstruktion eines Kerns kartieren Studierende eigenständig in Arbeitsgruppen weitere Teile der Debatte.
+3. **Interdisziplinäre Seminare:** Seminare zu fächerübergreifenden Themen (z.B. technische, rechtliche und ethische Aspekte im Umgang mit KI) werden für Studierende aller Fächer angeboten und vermitteln daher auch Grundlagen der Argumentkartierung. Auch hier tragen studentische Arbeitsgruppen eigene Teile zu einer gemeinsamen Argumentlandkarte bei. Im Zentrum steht das fächerübergreifende Potenzial dieser Methode.
+4. **Bürger:innenbeteiligungs-Seminare:** Studierende setzen die Methode der Argumentkartierung zur konstruktiven Begleitung öffentlicher Debatten ein (z.B. zu Corona-Maßnahmen). Anknüpfend an bewährte Nutzungsformen von Argumentkarten in der Bürger:innenbeteiligung, werden Interessierte im Sinne der partizipativen Wissenschaftskommunikation eingebunden.
