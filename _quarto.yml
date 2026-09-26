@@ -13,6 +13,7 @@ lang: de
 website:
   title: "Argumentkartierung"
   description: "Kontroversen begleiten mit Argumentkarten"
+  site-url: https://kobekarten.github.io/
   favicon: ""
 
   navbar:
