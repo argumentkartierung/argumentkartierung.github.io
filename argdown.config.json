@@ -1,12 +1,22 @@
 {
   "webComponent": {
-    "withoutHeader": true,
+    "withoutHeader": false,
     "views": {
       "source": true,
-      "map": false
+      "map": true
     }
   },
   "sourceHighlighter": {
     "removeFrontMatter": true
+  },
+  "color": {
+    "colorScheme": "iwanthue-colorblind-friendly",
+    "relationColors": {
+      "support": "#3CB371"
+    }
+  },
+  "model": {
+    "removeTagsFromText": true
   }
+
 }

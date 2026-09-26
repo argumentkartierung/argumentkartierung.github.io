@@ -1,36 +1,78 @@
 ---
-title: "Das Projekt"
-format: 
-  html: default
+title: "Kontroversen begleiten mit Argumentkarten"
+format:
+ html: default
 ---
 
-# Über das Projekt
+<style>
+  .quarto-title-block .title {
+    text-align: center;
+  }
+</style>
 
-Der konstruktive Umgang mit Kontroversen ist eine wichtige Qualifikation für Studierende. Dieses Projekt soll Lehrinhalte und -konzepte entwickeln, mit denen Studierende Kompetenzen in der konstruktiven Begleitung von Kontroversen erwerben und trainieren können. Sie üben sich darin, relevante Argumente und deren Beziehungen zueinander zu analysieren, sie angemessen darzustellen und solche Darstellungen konstruktiv in den weiteren Verständigungs- und Lösungsprozess einzubringen. Dazu soll die Methode der Argumentlandkarten genutzt werden (Argument Mapping): Grafiken mit Aussagen und Argumenten, die durch grüne Pfeile (Begründung) und rote Pfeile (Kritik) vernetzt sind. Die Studierenden sollen einüben, Argumentlandkarten zu entwerfen, im Dialog mit den Beteiligten zu evaluieren und zu überarbeiten und sie schließlich konstruktiv in die Unterstützung der Entscheidungs- und Lösungsfindung einzubringen. Das Projekt soll dazu (1) allgemeine und transferierbare Open Educational Resources (OER) sowie (2) spezifische Konzepte für deren Einsatz in verschiedenen Lehr- und Lernformaten entwickeln und erproben. Dazu gehören fachliche Veranstaltungen in der Philosophie, Veranstaltungen zu interdisziplinären Themen für Studierende aller Fächer sowie Bürger:innenbeteiligungs-Seminare zu öffentlichen Kontroversen, in denen interessierte Personen im Sinne der partizipativen Wissenschaftskommunikation in Diskussionsrunden eingebunden werden, die Studierende konstruktiv begleiten.
 
-::: columns
-::: column
+<!--
+Das Projekt "Kontroversen begleiten mit Argumentkarten" soll Lehrinhalte und -konzepte entwickeln, mit denen Studierende die Methode der Argumentkartierung erlernen, um damit Kontroversen konstruktiv begleiten zu können. Sie üben sich darin, relevante Argumente und deren Beziehungen zueinander zu analysieren, sie angemessen darzustellen und solche Darstellungen konstruktiv in den weiteren Verständigungs- und Lösungsprozess einzubringen. 
+-->
+<!--
+Das Projekt "Kontroversen begleiten mit Argumentkarten" entwickelt Lehrkonzepte und offene Bildungsmaterialien (OER), mit denen Studierende lernen, relevante Argumente und ihre Beziehungen zu analysieren, sie als Argumentkarten darzustellen und konstruktiv in Verständigungs- und Lösungsprozesse einzubringen. Zum Einsatz kommen die Karten in Veranstaltungen der Philosophie, in interdisziplinären Formaten für Studierende aller Fächer sowie in Bürger:innenbeteiligungs-Seminaren zu öffentlichen Kontroversen.
+-->
+
+<div class="argmap-frame" style="min-height: 300px; margin: 1.25rem 0 2rem; padding: 1.25rem;"></div>
+
+
+:::: {.landing}
+
+::: {.landing-hero}
+
+::: {.lead}
+Kontroversen konstruktiv begleiten – mit interaktiven Argumentkarten für Lehre, Studium und öffentliche Debatte.
+:::
+Das Projekt "Kontroversen begleiten mit Argumentkarten" entwickelt Lehrkonzepte und offene Bildungsmaterialien (OER), mit denen Studierende lernen, relevante Argumente und ihre Beziehungen zu analysieren, sie als Argumentkarten darzustellen und konstruktiv in Verständigungs- und Lösungsprozesse einzubringen. Zum Einsatz kommen die Karten in Veranstaltungen der Philosophie, in interdisziplinären Formaten für Studierende aller Fächer sowie in Bürger:innenbeteiligungs-Seminaren zu öffentlichen Kontroversen.
+
+[Mehr erfahren](content/project.qmd){.btn .btn-light .btn-lg}
+:::
+
+
+
+::: {.landing-container}
+
+
+::: {.landing-cards}
+
+::: {.landing-card}
+[]{.icon}🎯
+
 ### Ziele
-Unsere Zielsetzungen.
+Wir entwickeln Kurskonzepte und frei verfügbare Bildungsmaterialien in mehreren Formaten.
 
-[Mehr](#Ziele)
+[Mehr zu den Projektzielen →](content/project.qmd#ziele)
 :::
 
-::: column
-### Outputs
-Was wir machen.
+::: {.landing-card}
+[]{.icon}⚙️
 
-[Mehr](#Outputs)
-:::
-
-::: column
 ### Methoden
-Wir bedienen uns sogenannten Argumentlandkarten.
+Im Mittelpunkt steht die Methode der Argumentkartierung und deren Umsetzung mit Argdown.
 
-[Mehr](#Methoden)
+[Mehr zur Argumentkartierung →](content/project.qmd#methoden)
+:::
+
+::: {.landing-card}
+[]{.icon}👩‍🦱🧔‍♂️
+
+### Team
+Wir bestehen aus einem breit aufgestellten Team von Lehrenden und Studierenden.
+
+[Mehr zum Team →](content/team/index.qmd)
 :::
 
 :::
+
+:::
+
+::::
+
 
 
 

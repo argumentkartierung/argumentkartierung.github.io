@@ -1,7 +1,7 @@
 
 # Kobekarten Website
 
-This repository contains the source code of the static website for the project "Kontroversen begleiten mit Argumentlandkarten" (Kobekarten).
+This repository contains the source code of the static website for the project "Kontroversen begleiten mit Argumentkarten".
 
 This website is based on the [quarto-course-template](https://github.com/xylomorph/quarto-course-template). See that repository for additional technical details.
 

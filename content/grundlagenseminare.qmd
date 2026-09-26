@@ -1,7 +1,0 @@
----
-title: Grundlagenseminare
-format: 
-  html: default
----
-
-Info zu den Grundlagenseminaren...

@@ -6,35 +6,34 @@ project:
   - "index.qmd"
   - "content/**"
   resources:
-    - js/argmap-backdrop.js          # ensure it's copied into _site/js/
+    - assets/**
 lang: de
 
 
 website:
-  title: "Argumentlandkarten"
-  description: "Kontroversen begleiten mit Argumentlandkarten"
+  title: "Argumentkartierung"
+  description: "Kontroversen begleiten mit Argumentkarten"
   favicon: ""
 
   navbar:
     background: primary
+    pinned: true
     search: true
     left:
       - text: "Das Projekt"
-        href: index.qmd
+        href: content/project.qmd
       - text: "Das Team"
-        href: content/team.qmd
-      - text: "Mariam-1"
-        href: content/index-mariam_1.qmd
-      - text: "Themen & Bausteine"
-        menu:
-          - text: "Baukasten Argumentkartierung"
-            href: content/baukasten_argumentkartierung.qmd
-          - text: "Grundlagenseminare"
-            href: content/grundlagenseminare.qmd
+        href: content/team/index.qmd
+      # - text: "Themen & Bausteine"
+      #   menu:
+      #     - text: "Baukasten Argumentkartierung"
+      #       href: content/baukasten_argumentkartierung.qmd
+      #     - text: "Grundlagenseminare"
+      #       href: content/grundlagenseminare.qmd
 
   page-footer:
     left: 
-      - "Argumentlandkarten"
+      - "Argumentkartierung"
     center: |
       Gefördert von <a href="https://stiftung-hochschullehre.de" target="_blank" rel="noopener" class="footer-logo-link"><img src="/content/images/Logo_Stiftung_Hochschullehre.svg" alt="Stiftung Hochschullehre" class="footer-logo-svg"></a> <a href="https://hhu.de" target="_blank" rel="noopener" class="footer-logo-png-link"><img src="/content/images/hhu_logo_transparent.png" alt="HHU" class="footer-logo-png"></a>
     right:
@@ -46,7 +45,9 @@ website:
 
 format:
   html:
-    css: menu_anim.css
+    css:
+      - menu_anim.css
+      - assets/styles/custom.scss
     respect-user-color-scheme: true
     template-partials:
       - assets/partials/title-block.html
@@ -74,7 +75,8 @@ format:
     include-after-body:
       text: |
         <div id="amb-page" aria-hidden="true"></div>
-        <script src="/js/argmap-backdrop.js"></script>
+        <!--script src="/assets/js/argmap-backdrop.js"></script-->
+        <script src="/assets/js/argmap-frame.js"></script>
         <script>
           (function () {
             var host = document.getElementById('amb-page');
