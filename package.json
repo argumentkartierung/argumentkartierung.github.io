@@ -9,13 +9,16 @@
   },
   "dependencies": {
     "@argdown/cli": "*",
-    "@argdown/pandoc-filter": "*",
-    "@argdown/image-export": "*"
+    "@argdown/image-export": "*",
+    "@argdown/pandoc-filter": "*"
   },
   "keywords": [
     "quarto",
     "argdown",
     "education"
   ],
-  "license": "SEE LICENSE FILE"
+  "license": "SEE LICENSE FILE",
+  "devDependencies": {
+    "sass": "^1.105.0"
+  }
 }

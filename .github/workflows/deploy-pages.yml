@@ -38,6 +38,10 @@ jobs:
           npm install @argdown/pandoc-filter
           npm install @argdown/image-export
 
+      - name: Compile custom Sass to CSS
+        run: |
+          npx sass assets/styles/custom.scss assets/styles/custom.css --no-source-map
+
       # Install system dependencies for PDF rendering and Decktape/Chrome
       # - Inkscape: converts SVG to PDF for Argdown maps in LaTeX documents
       # - librsvg2-bin: rsvg-convert for SVG processing

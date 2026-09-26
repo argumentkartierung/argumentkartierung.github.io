@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/*-- scss:defaults --*/
+/*-- scss:rules --*/
+/* Custom styles for the course materials */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* All styles for the landing page (index.html)
+   Colors use Bootstrap theme variables → adapts to light (flatly) / dark (darkly). */
+.landing {
+  --accent: #18bc9c;
+}
+
+.landing-hero {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.85rem;
+  padding: 1.75rem;
+  background: var(--bs-body-bg);
+  text-align: center;
+  margin: 1rem 0 3rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.landing-hero:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+.landing-hero h1 {
+  color: var(--bs-heading-color, var(--bs-body-color));
+  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.landing-hero .lead {
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  opacity: 0.95;
+}
+
+.landing-hero .btn {
+  margin: 0.3rem;
+}
+
+.landing-container {
+  max-width: 1080px;
+  margin-inline: auto;
+}
+
+.landing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.landing-card {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.85rem;
+  padding: 1.75rem;
+  background: var(--bs-body-bg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.landing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+.landing-card h3 {
+  margin-top: 0;
+  color: var(--bs-primary);
+  border: none;
+}
+
+.landing-card .icon {
+  font-size: 2.25rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.landing-map {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.85rem;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: var(--bs-body-bg);
+}
+
+.landing-cta {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-top: 3rem;
+  border-top: 3px solid var(--accent);
+}
+
+.team-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.team-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.85rem;
+  background: var(--bs-body-bg);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.team-member__media {
+  flex: 0 0 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.team-member__photo-link {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  background: var(--bs-tertiary-bg, #f8f9fa);
+}
+
+.team-member__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-member__social {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member__social li {
+  list-style: none;
+}
+
+.team-member__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.team-member__social a:hover {
+  transform: translateY(-2px);
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
+}
+
+.team-member__content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.team-member__name {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  color: var(--bs-heading-color, var(--bs-body-color));
+}
+
+.team-member__affiliation {
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+  color: var(--bs-primary);
+}
+
+.team-member__description {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--bs-body-color);
+}
+
+@media (max-width: 767.98px) {
+  .team-member {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .team-member__media {
+    flex-basis: auto;
+    width: 100%;
+  }
+  .team-member__photo-link {
+    width: min(220px, 100%);
+    height: 220px;
+    margin: 0 auto;
+  }
+}
