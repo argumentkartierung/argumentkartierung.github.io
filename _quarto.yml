@@ -2,11 +2,11 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - "index.qmd"
-    - "content/project.qmd"
-    - "content/team/index.qmd"
-    - "content/impressum.qmd"
+  # render:
+  #   - "index.qmd"
+  #   - "content/project.qmd"
+  #   - "content/team/index.qmd"
+  #   - "content/impressum.qmd"
   resources:
     - assets/**
 lang: de
@@ -49,7 +49,7 @@ website:
 format:
   html:
     css:
-      # - menu_anim.css
+      - menu_anim.css
       - assets/styles/custom.css
     respect-user-color-scheme: true
     template-partials:
