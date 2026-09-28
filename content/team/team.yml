@@ -1,12 +1,10 @@
-- name: Prof. Dr. Anna Müller
+- name: David Löwenstein
   affiliation: Projektleitung
-  href: https://example.com
-  thumbnail: /content/team/images/user.png
-  description: "Leitet das Projekt und koordiniert die fachliche und didaktische Weiterentwicklung der Argumentkartierung in der Lehre."
+  href: https://www.davidloewenstein.net/
+  thumbnail: /content/team/images/loewenstein_s2.jpg
+  description: "David Löwenstein ist Akademischer Rat an der Heinrich-Heine-Universität Düsseldorf. Seine Interessen liegen vor allem in verschiedenen Bereichen der theoretischen Philosophie allen voran der Erkenntnistheorie und Argumentationstheorie sowie der Didaktik der Philosophie."
   social:
-    - website: https://example.com
-    - github: https://github.com/example
-    - linkedin: https://linkedin.com
+    - website: https://www.davidloewenstein.net/
 - name: Sebastian Cacean
   affiliation: Wissenschaftlicher Mitarbeiter
   href: https://sebastiancacean.de/
