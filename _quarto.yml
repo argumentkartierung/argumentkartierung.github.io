@@ -50,13 +50,13 @@ format:
   html:
     css:
       - assets/styles/menu_anim.css
-      - assets/styles/custom.css
+      - assets/styles/custom.css    #intended?
     respect-user-color-scheme: true
     template-partials:
       - assets/partials/title-block.html
     theme:
-      light: flatly
-      dark: darkly
+      light: [flatly, assets/styles/custom.scss]
+      dark: [darkly, assets/styles/custom.scss]
     toc-depth: 3
     argdown:
       mode: web-component
