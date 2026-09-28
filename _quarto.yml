@@ -62,9 +62,6 @@ format:
       mode: web-component
       sourceHighlighter: web-component
       config: argdown.config.json
-    include-after-body:
-      text: |
-        <script src="assets/js/argmap-frame.js"></script>
   pdf:
     documentclass: article
     pdf-engine-opt: "-shell-escape"

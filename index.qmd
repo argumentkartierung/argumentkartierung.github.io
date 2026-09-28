@@ -72,6 +72,8 @@ In unserem Team arbeiten Lehrende und Studierende eng zusammen.
 
 ::::
 
+<script src="assets/js/argmap-frame.js"></script>
+
 
 
 
