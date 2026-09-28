@@ -32,16 +32,16 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Inspect checkout
-        run: |
-          echo "=== Working directory ==="
-          pwd
-          echo "=== Top level ==="
-          ls -la
-          echo "=== content ==="
-          find content -maxdepth 3 -type f -print | sort
-          echo "=== Git tracked files ==="
-          git ls-files | sort
+      # - name: Inspect checkout
+      #   run: |
+      #     echo "=== Working directory ==="
+      #     pwd
+      #     echo "=== Top level ==="
+      #     ls -la
+      #     echo "=== content ==="
+      #     find content -maxdepth 3 -type f -print | sort
+      #     echo "=== Git tracked files ==="
+      #     git ls-files | sort
       - name: Install Node dependencies (Argdown)
         run: |
           npm install @argdown/cli
@@ -71,13 +71,13 @@ jobs:
       - name: Install Quarto extensions
         run: |
           quarto add quarto-ext/fontawesome --no-prompt
-      - name: Inspect repository
-        run: |
-          echo "=== git files ==="
-          git ls-files | sort
+      # - name: Inspect repository
+      #   run: |
+      #     echo "=== git files ==="
+      #     git ls-files | sort
 
-          echo "=== content tree ==="
-          find content -type f -print | sort
+      #     echo "=== content tree ==="
+      #     find content -type f -print | sort
       - name: Render Quarto website
         run: |
           quarto --version
