@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*-- scss:defaults --*/
+$web-font-path: false;
 /*-- scss:rules --*/
 /* Custom styles for the course materials */
 body {
