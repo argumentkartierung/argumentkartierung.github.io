@@ -13,10 +13,10 @@ In Argumentkarten werden die argumentativen Bezüge zwischen Argumenten und Thes
 
 ```argdown-map
 [Hauptthese]: Hauptthese, die durch Argumente begründet oder kritisiert wird. #pro
-    + <Argument 1>: Argument, das die Hauptthese begründet. #pro
-    + <Argument 2>: Ein weiteres Argument, das die Hauptthese begründet. #pro
-    - <Einwand>: Argument, das einen Einwand gegen die Hauptthese formuliert. #con
-        - <Entkräftung>: Argument, das den Einwand entkräftet. #pro
+    + <1. Argument>: Argument, das die Hauptthese begründet. #pro
+    + <2. Argument>: Ein weiteres Argument, das die Hauptthese begründet. #pro
+    - <3. Argument (Einwand)>: Argument, das einen Einwand gegen die Hauptthese formuliert. #con
+        - <4. Argument (Entkräftung)>: Argument, das den Einwand entkräftet. #pro
 ```
 
 Argumentkarten können mit unterschiedlichen Anwendungen erstellt werden. Im Prinzip reichen Papier und Stift. [Argdown](https://argdown.org/) ist eine einfache, textbasierte Sprache, die von [Markdown](https://daringfireball.net/projects/markdown/) inspiriert und für die Erstellung von Argumentkarten optimiert ist. Mit ihr lassen sich Argumentkarten kollaborativ erstellen und in verschiedene redaktionelle Prozesse einbinden. Argdown wird bereits in verschiedenen Tools unterstützt (z. B. in [VS Code](https://marketplace.visualstudio.com/items?itemName=christianvoigt.argdown-vscode) und [Obsidian](https://community.obsidian.md/plugins/obsidian-argdown-plugin)).

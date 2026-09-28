@@ -77,6 +77,7 @@
       r.setAttribute('stroke', C.stroke); r.setAttribute('stroke-opacity', '.55');
       r.setAttribute('stroke-width', '1.2');
       g.appendChild(r);
+      n.rectEl = r;
 
       var t = document.createElementNS(NS, 'text');
       t.setAttribute('x', '0');
@@ -118,16 +119,53 @@
       return e;
     }
 
+    function wrapLabel(label){
+      var raw = String(label || '').trim();
+      if (!raw) return [];
+      if (raw.length <= 14) return [raw];
+      var words = raw.split(/\s+/);
+      if (words.length > 1){
+        var first = words[0];
+        var rest = words.slice(1).join(' ');
+        if (first.length + rest.length <= 22) return [first, rest];
+      }
+      var chunks = [];
+      for (var i = 0; i < raw.length; i += 12){
+        var chunk = raw.slice(i, i + 12).trim();
+        if (chunk) chunks.push(chunk);
+      }
+      if (chunks.length === 0) return [raw];
+      if (chunks.length === 1) return [chunks[0]];
+      return [chunks[0], chunks.slice(1).join(' ')];
+    }
+
     function syncNodeTitles(){
       nodes.forEach(function (n){
         var label = 'These';
         if (n.parent){
           var hasSupport = Array.isArray(n._out) && n._out.some(function (e){ return e.kind === 'support'; });
           var hasAttack = Array.isArray(n._out) && n._out.some(function (e){ return e.kind === 'attack'; });
-          label = hasSupport ? 'Argument' : (hasAttack ? 'Einwand' : '');
+          label = hasSupport ? 'Argument (Stützung)' : (hasAttack ? 'Argument (Einwand)' : '');
         }
-        n.titleEl.textContent = label;
-        n.titleEl.style.display = label ? 'block' : 'none';
+
+        var lines = wrapLabel(label);
+        while (n.titleEl.firstChild) n.titleEl.removeChild(n.titleEl.firstChild);
+        lines.forEach(function (line, index){
+          var tspan = document.createElementNS(NS, 'tspan');
+          tspan.setAttribute('x', '0');
+          tspan.setAttribute('dy', index === 0 ? '0' : '10');
+          tspan.textContent = line;
+          n.titleEl.appendChild(tspan);
+        });
+
+        var needsTwoLines = lines.length > 1;
+        n.h = Math.max(n.h, needsTwoLines ? 28 : 18);
+        if (n.rectEl){
+          n.rectEl.setAttribute('height', n.h);
+          n.rectEl.setAttribute('y', -n.h / 2);
+        }
+        n.titleEl.setAttribute('y', needsTwoLines ? '-3' : '0');
+        n.titleEl.style.display = lines.length ? 'block' : 'none';
       });
     }
 
