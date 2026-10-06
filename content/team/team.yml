@@ -19,15 +19,13 @@
     - website: https://sebastiancacean.de/
     - github: https://github.com/xylomorph
     - linkedin: https://www.linkedin.com/in/sebastian-cacean/
-- name: Maja Fischer
-  affiliation: Studentische Hilfskraft
-  href: https://example.com
-  thumbnail: /content/team/images/user.png
-  description: "Unterstützt die Konzeption und Umsetzung der digitalen Materialien und wirkt an der didaktischen Erprobung mit."
+- name: Christoph Schamberger
+  affiliation: Projektmitarbeiter
+  href: https://www.philosophie.hhu.de/personen/christoph-schamberger
+  thumbnail: /content/team/images/schamberger_2s.jpg
+  description: "Christoph Schamberger ist Lehrkraft für besondere Aufgaben am Institut für Philosophie der Heinrich-Heine-Universität Düsseldorf. Seine Forschungsschwerpunkte umfassen Philosophische Logik, Argumentationstheorie, Sprachphilosophie, Soziale Erkenntnistheorie und Politische Philosophie. Im Projekt ist er mitverantwortlich für die Konzeption der Grundlagenseminare."
   social:
-    - website: https://example.com
-    - github: https://github.com/example
-    - twitter: https://twitter.com/example
+    - website: https://www.philosophie.hhu.de/personen/christoph-schamberger
 - name: Tim Weber
   affiliation: Lehr- und Lernberatung
   href: https://example.com
