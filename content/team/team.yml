@@ -26,13 +26,10 @@
   description: "Christoph Schamberger ist Lehrkraft für besondere Aufgaben am Institut für Philosophie der Heinrich-Heine-Universität Düsseldorf. Seine Forschungsschwerpunkte umfassen Philosophische Logik, Argumentationstheorie, Sprachphilosophie, Soziale Erkenntnistheorie und Politische Philosophie. Im Projekt ist er mitverantwortlich für die Konzeption der Grundlagenseminare."
   social:
     - website: https://www.philosophie.hhu.de/personen/christoph-schamberger
-- name: Tim Weber
-  affiliation: Lehr- und Lernberatung
-  href: https://example.com
+- name: Caleb Pilenz
+  affiliation: Studentische Hilfskraft
   thumbnail: /content/team/images/user.png
-  description: "Berät bei der Einbindung der Methode in Lehrformate und unterstützt die fachliche Reflexion in Diskussionen."
-  social:
-    - website: https://example.com
-    - github: https://github.com/example
-    - linkedin: https://linkedin.com
-    - facebook: https://facebook.com
+  description: |
+    Caleb Pilenz studiert Philosophie und Soziologie an der Heinrich-Heine-Universität in Düsseldorf. Seine Interessen liegen vor allem in den Schnittstellen der theoretischen und praktischen Philosophie, besonders den epistemischen Ungerechtigkeiten.
+
+    Außerhalb des Projekts ist er im Young Minds Philosophy e.V. tätig.
