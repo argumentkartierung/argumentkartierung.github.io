@@ -43,7 +43,7 @@ website:
       - text: "Datenschutz"
         href: https://www.hhu.de/datenschutzerklaerung
       - text: "Impressum"
-        href: https://www.hhu.de/impressum
+        href: /content/impressum.html
       - text: 'Gebaut mit <a href="https://quarto.org">Quarto</a>'
 
 format:

@@ -6,6 +6,10 @@ $web-font-path: false;
 
 /*-- scss:rules --*/
 
+span.email > span:nth-child(2) {
+	display: none;
+}
+
 /* Custom styles for the course materials */
 
 

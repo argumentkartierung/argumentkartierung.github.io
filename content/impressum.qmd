@@ -4,8 +4,81 @@ format:
   html: default
 ---
 
-<!-- Hier Datenschutzbeauftrage, Verantwortliche eintragen, pot. Abstimmung mit Datenschutzbeauftragten PhilFak
-	- auf hhu.de/datenschutz verweisen?
--->
+Heinrich-Heine-Universität Düsseldorf
 
-Das Impressum wird noch erstellt!
+Universitätsstraße 1
+
+40225 Düsseldorf
+
+Tel.: +49 211 81-11118
+
+Die Heinrich-Heine-Universität Düsseldorf (HHU) ist eine Körperschaft des öffentlichen Rechts.
+
+## Gesetzlicher Vertreter
+
+Rektorin Prof. Dr. Anja Steinbeck
+
+Zuständige Aufsichtsbehörde
+
+Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen
+
+Völklinger Straße 49
+
+40221 Düsseldorf
+
+Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz
+
+DE 811222416
+
+## Herausgeber
+
+Der Dekan der Philosophischen Fakultät
+
+Univ.-Prof. Dr. Ulli Seegers
+
+Dekanin
+
+Gebäude: 23.21
+
+Etage/Raum: 00.84
+
++49 211 81-11505
+
+Mail: <span class="email">ulli.<span>seegers</span><span>example.</span>@hhu.de</span>
+ 
+
+Mit der Nutzung der frei zugänglichen und kostenlosen Inhalte kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter zustande.
+
+## Redaktion & Technik
+
+Heinrich-Heine-Universität Düsseldorf
+
+Philosophische Fakultät
+
+Universitätsstraße 1
+
+40225 Düsseldorf
+
+E-Mail: <span class="email">argument<span>kartierung@</span><span>example.</span>hhu.de</span>
+
+# Haftungsausschluss
+
+## Haftung für eigene Inhalte
+
+Die Inhalte unserer Seiten wurden mit großer Sorgfalt erstellt, jedoch können wir für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte keine Gewähr übernehmen.
+
+Für eigene Inhalte auf diesen Seiten sind wir nach den allgemeinen Gesetzen verantwortlich. Wir sind jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei bekannt werden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+## Haftung für externe Links
+
+Wir haben in das WWW-Angebot der Philosophischen Fakultät Links zu anderen Seiten gelegt, auf deren Inhalte wir keinen Einfluss haben. Trotz sorgfältiger inhaltlicher Kontrolle können wir deshalb für diese fremden Inhalte auch keine Gewähr übernehmen. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei bekannt werden von Rechtsverletzungen werden wir derartige Links umgehend entfernen. Diese Erklärung gilt für alle auf unserer Internetpräsenz angezeigten Links und für die Inhalte der Seiten, zu denen die Links führen.
+
+## Urheberrecht
+
+Durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+
+Der direkte, unmittelbare Datei-Download von verwendeten Bildern via Browsern („Rechtsklicktasten-Funktion“) ist als „direkter Download“ nicht zulässig; dies gilt allerdings nur für Direkt-Downloads; Screenshots eingesetzter Bilder sind – im Rahmen der geltenden urheberrechtlichen Bestimmungen – zulässig.
+
+Downloads und Kopien dieser Seite sind nur für den privaten, nichtkommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.
+
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails vor.
