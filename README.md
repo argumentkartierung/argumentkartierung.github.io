@@ -23,6 +23,8 @@ For ordinary content updates, you usually only need to work with Markdown files 
 
 To make changes to the website, you can either use the GitHub web interface or work locally in VS Code. The easiest option for most contributors is the GitHub web interface, since no technical setup is required. If you want to work locally, you can use VS Code that allows you to edit the files, commit them to this repo and preview the site before committing changes.
 
+In this document you will find a brief overview of the most important content locations, typical editing tasks, and instructions for using the GitHub web interface or VS Code locally. For a thorough overview of Quarto and its features, please refer to the [Quarto documentation for websites]https://quarto.org/docs/websites/).
+
 ### Main content locations
 
 Most content is stored in the following places:
@@ -89,6 +91,15 @@ A few practical guidelines:
 Some parts of the site may use structured data files such as YAML files. For example, team information may be stored in files under `content/team/`. These are still editable, but changes should match the expected structure of the file.
 
 If you are updating a person’s profile, check the existing team entry first and keep the same field names and layout.
+
+### Adding new pages
+
+To add a new page, 
+
++ create a new `.qmd` file in the `content/` folder (or a subfolder).
++  Possibly use an existing page as a template for structure and formatting. 
++ Update the YAML front matter (metadata at the top of the file) to set the title, and other relevant information and add the page content in Markdown format. 
++ Finally, update the navigation in `_quarto.yml` to include the new page.
 
 ## Rendering the Website
 
