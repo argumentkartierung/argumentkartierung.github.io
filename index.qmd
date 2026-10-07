@@ -28,7 +28,7 @@ Das Projekt "Kontroversen begleiten mit Argumentkarten" entwickelt Lehrkonzepte 
 ::: {.lead}
 Kontroversen konstruktiv begleiten – mit interaktiven Argumentkarten für Lehre, Studium und öffentliche Debatte.
 :::
-Das Projekt *Kontroversen begleiten mit Argumentkarten* entwickelt Lehrkonzepte und offene Bildungsmaterialien (OER), mit denen Studierende lernen, relevante Argumente und ihre Beziehungen zu analysieren, sie als Argumentkarten darzustellen und konstruktiv in Verständigungs- und Lösungsprozesse einzubringen. Zum Einsatz kommen die Karten in Veranstaltungen der Philosophie, in interdisziplinären Formaten für Studierende aller Fächer sowie in Bürger:innenbeteiligungs-Seminaren zu öffentlichen Kontroversen.
+Das Projekt *Kontroversen begleiten mit Argumentkarten* entwickelt Lehrkonzepte und offene Bildungsmaterialien (OER), mit denen Studierende lernen, relevante Argumente und ihre Beziehungen zu analysieren, sie in Argumentkarten darzustellen und diese konstruktiv in Verständigungs- und Lösungsprozesse einzubringen. Zum Einsatz kommen die Karten in Veranstaltungen des Philosophie-Studiums, in interdisziplinären Formaten für Studierende aller Fächer sowie in Bürger:innenbeteiligungs-Seminaren zu öffentlichen Kontroversen.
 
 [Mehr erfahren](content/project.qmd){.btn .btn-light .btn-lg}
 :::
