@@ -23,7 +23,7 @@ For ordinary content updates, you usually only need to work with Markdown files 
 
 To make changes to the website, you can either use the GitHub web interface or work locally in VS Code. The easiest option for most contributors is the GitHub web interface, since no technical setup is required. If you want to work locally, you can use VS Code that allows you to edit the files, commit them to this repo and preview the site before committing changes.
 
-In this document you will find a brief overview of the most important content locations, typical editing tasks, and instructions for using the GitHub web interface or VS Code locally. For a thorough overview of Quarto and its features, please refer to the [Quarto documentation for websites]https://quarto.org/docs/websites/).
+In this document you will find a brief overview of the most important content locations, typical editing tasks, and instructions for using the GitHub web interface or VS Code locally. For a thorough overview of Quarto and its features, please refer to the [Quarto documentation for websites](https://quarto.org/docs/websites/).
 
 ### Main content locations
 
