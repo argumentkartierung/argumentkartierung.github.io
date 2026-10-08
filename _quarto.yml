@@ -44,7 +44,10 @@ website:
         href: https://www.hhu.de/datenschutzerklaerung
       - text: "Impressum"
         href: /content/impressum.html
-      - text: 'Gebaut mit <a href="https://quarto.org">Quarto</a>'
+      - text: "Hosted auf Github"
+        href: https://github.com/argumentkartierung/argumentkartierung.github.io
+      - text: "Gebaut mit Quarto"
+        href: https://quarto.org
 
 format:
   html:
