@@ -2,7 +2,7 @@
 <% const current = items.filter(i => i.status !== 'former'); %>
 <% const former  = items.filter(i => i.status === 'former'); %>
 
-<% for (const [heading, list] of [['Team', current], ['Ehemalige & assozierte Mitglieder', former]]) { %>
+<% for (const [heading, list] of [['Team', current], ['Ehemalige & assoziierte Mitglieder', former]]) { %>
   <% if (list.length) { %>
     <% if (heading) { %><h2 class="team-heading"><%= heading %></h2><% } %>
 <div class="team-list">
