@@ -1,10 +1,16 @@
 ```{=html}
+<% const current = items.filter(i => i.status !== 'former'); %>
+<% const former  = items.filter(i => i.status === 'former'); %>
+
+<% for (const [heading, list] of [['Team', current], ['Ehemalige & assozierte Mitglieder', former]]) { %>
+  <% if (list.length) { %>
+    <% if (heading) { %><h2 class="team-heading"><%= heading %></h2><% } %>
 <div class="team-list">
-  <% for (const item of items) { %>
+  <% for (const item of list) { %>
     <article class="team-member">
       <div class="team-member__media">
         <a class="team-member__photo-link" href="<%= item.href || '#' %>" target="_blank" rel="noopener noreferrer">
-          <img class="team-member__photo" src="<%= item.thumbnail || '/content/team/images/scacean.jpg' %>" alt="<%= item.name %>" />
+          <img class="team-member__photo" src="<%= item.thumbnail || '/content/team/images/user.png' %>" alt="<%= item.name %>" />
         </a>
 
         <ul class="team-member__social">
@@ -47,4 +53,6 @@
     </article>
   <% } %>
 </div>
+  <% } %>
+<% } %>
 ```

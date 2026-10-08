@@ -8,15 +8,4 @@ listing:
     contents: team.yml
 ---
 
-::: grid
-::: {#sponsors_banner .g-col-12 .title}
-# Team
-:::
 
-::: {#speakers .g-col-12}
-:::
-
-<div></div>
-:::
-
-<!-- ehemalige und assoziierte Mitglieder -->
