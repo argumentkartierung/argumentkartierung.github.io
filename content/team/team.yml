@@ -28,7 +28,8 @@
     - website: https://www.philosophie.hhu.de/personen/christoph-schamberger
 - name: Marion Seiche
   affiliation: Projektmitarbeiterin
-  description: ""
+  thumbnail: /content/team/images/seiche.jpg
+  description: "Marion Seiche hat im Bereich der praktischen Philosophie zum Thema Wohltätigkeit und Effektivitätsforderungen promoviert. Sie interessiert sich insbesondere für normative Begründung und die Kartierung moralphilosophischer Debatten."
 - name: Luca Deckers
   affiliation: Studentische Hilfskraft
   thumbnail: /content/team/images/deckers.jpg
@@ -54,5 +55,4 @@
 - name: Mariam Awwad
   status: former
   thumbnail: /content/team/images/user.png
-  affiliation: Wissenschaftliche Hilfskraft
   description: "Mariam Awwad war bis September 2026 Mitglied des Teams. Seit Oktober 2026 ist sie als wissenschaftliche Mitarbeiterin und Doktorandin an der TU Dortmund; zuvor studierte sie Philosophie an der HHU Düsseldorf."
