@@ -27,7 +27,7 @@
   social:
     - website: https://www.philosophie.hhu.de/personen/christoph-schamberger
 - name: Marion Seiche
-  affiliation: Projektmitarbeiter
+  affiliation: Projektmitarbeiterin
   description: ""
 - name: Luca Deckers
   affiliation: Studentische Hilfskraft
@@ -41,7 +41,7 @@
   social:
     - website: https://independent.academia.edu/GeramiMikael
 - name: David Niemann
-  affiliation: Studentische Hilfskraft
+  affiliation: Wissenschaftliche Hilfskraft
   thumbnail: /content/team/images/user.png
   description: ""
 - name: Caleb Pilenz
@@ -53,4 +53,5 @@
     Außerhalb des Projekts ist er im Young Minds Philosophy e.V. tätig.
 - name: Mariam Awwad
   status: former
+  affiliation: Wissenschaftliche Hilfskraft
   description: ""
