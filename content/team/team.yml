@@ -28,7 +28,10 @@
     - website: https://www.philosophie.hhu.de/personen/christoph-schamberger
 - name: Marion Seiche
   affiliation: Projektmitarbeiterin
+  social:
+    - website: https://www.philosophie.hhu.de/en/personen/marion-seiche
   thumbnail: /content/team/images/seiche.jpg
+  href: https://www.philosophie.hhu.de/en/personen/marion-seiche
   description: "Marion Seiche hat im Bereich der praktischen Philosophie zum Thema Wohltätigkeit und Effektivitätsforderungen promoviert. Sie interessiert sich insbesondere für normative Begründung und die Kartierung moralphilosophischer Debatten."
 - name: Luca Deckers
   affiliation: Studentische Hilfskraft
@@ -38,20 +41,20 @@
   affiliation: Studentische Hilfskraft
   thumbnail: /content/team/images/gerami.jpg
   href: https://independent.academia.edu/GeramiMikael
-  description: "Mikael Gerami studiert Philosophie im integrativen Bachelor-Studiengang an der HHU. Im Projekt ist er hauptsächlich für die Konzeptentwicklung für die Grundlagenseminare tätig. Seine Interessen sind Fragen der theoretischen Philosophie (vor allem Metaphysik, Erkenntnistheorie, und Wissenschaftstheorie) und der distributiven Gerechtigkeit."
+  description: "Mikael Gerami studiert Philosophie im integrativen Bachelor-Studiengang an der HHU. Im Projekt ist er hauptsächlich für die Konzeptentwicklung der Grundlagenseminare tätig. Seine Interessen sind Fragen der theoretischen Philosophie (vor allem Metaphysik, Erkenntnistheorie, und Wissenschaftstheorie) und der distributiven Gerechtigkeit."
   social:
     - website: https://independent.academia.edu/GeramiMikael
 - name: David Niemann
   affiliation: Wissenschaftliche Hilfskraft
   thumbnail: /content/team/images/user.png
-  description: ""
+  description: "David Niemann schloss 2025 seinen Master in Philosophie an der HHU ab. Seine Interessen liegen in der theoretischen Philosophie, inbesondere der Sprachphilosophie, der Philosophie Ludwig Wittgensteins sowie asiatischer Philosophie."
 - name: Caleb Pilenz
   affiliation: Studentische Hilfskraft
   thumbnail: /content/team/images/user.png
   description: |
     Caleb Pilenz studiert Philosophie und Soziologie an der Heinrich-Heine-Universität in Düsseldorf. Seine Interessen liegen vor allem in den Schnittstellen der theoretischen und praktischen Philosophie, besonders den epistemischen Ungerechtigkeiten.
 
-    Außerhalb des Projekts ist er im Young Minds Philosophy e.V. tätig.
+    Außerhalb des Projekts ist er im <a href="https://www.instagram.com/youngminds.philosophy/">Young Minds Philosophy e.V.</a> tätig.
 - name: Mariam Awwad
   status: former
   thumbnail: /content/team/images/user.png
