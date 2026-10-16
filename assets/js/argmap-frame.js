@@ -29,7 +29,7 @@
 
     var o = {
       opacity: .82, roots: 1, maxNodes: 12, maxDepth: 4, maxChildren: 3,
-      nodeW: [52, 82], nodeH: [18, 26], rowGap: 80,
+      nodeW: [100, 100], nodeH: [26, 26], rowGap: 80,
       growEvery: 1200, growJitter: 320, crossLinkChance: .12, arrows: true,
       hold: 2200, fade: 700, loop: true, drift: true,
       width: 1200, height: 360, colors: {}, preserveAspectRatio: 'xMidYMid meet'
@@ -74,8 +74,8 @@
       r.setAttribute('width', n.w); r.setAttribute('height', n.h);
       r.setAttribute('rx', '5');
       r.setAttribute('fill', C.node); r.setAttribute('fill-opacity', '.10');
-      r.setAttribute('stroke', C.stroke); r.setAttribute('stroke-opacity', '.55');
-      r.setAttribute('stroke-width', '1.2');
+      r.setAttribute('stroke', C.stroke); r.setAttribute('stroke-opacity', '1.0');
+      r.setAttribute('stroke-width', '1.5');
       g.appendChild(r);
       n.rectEl = r;
 
@@ -84,7 +84,7 @@
       t.setAttribute('y', '0');
       t.setAttribute('text-anchor', 'middle');
       t.setAttribute('dominant-baseline', 'middle');
-      t.setAttribute('font-size', '9');
+      t.setAttribute('font-size', '14');
       t.setAttribute('font-weight', '700');
       t.setAttribute('letter-spacing', '.04em');
       t.setAttribute('fill', C.stroke);
@@ -105,12 +105,12 @@
       var col = kind === 'support' ? C.support : C.attack;
       var p = document.createElementNS(NS, 'path');
       p.setAttribute('fill', 'none'); p.setAttribute('stroke', col);
-      p.setAttribute('stroke-width', '1.4'); p.setAttribute('stroke-linecap', 'round');
+      p.setAttribute('stroke-width', '2.5'); p.setAttribute('stroke-linecap', 'round');
       p.style.opacity = '0';
       e.path = p; edgeLayer.appendChild(p);
       if (o.arrows){
         var h = document.createElementNS(NS, 'polygon');
-        h.setAttribute('points', '0,0 -7.5,-3 -7.5,3');
+        h.setAttribute('points', '0,0 -10,-6 -10,6');
         h.setAttribute('fill', col);
         h.style.opacity = '0';
         e.headEl = h; edgeLayer.appendChild(h);
@@ -153,18 +153,18 @@
         lines.forEach(function (line, index){
           var tspan = document.createElementNS(NS, 'tspan');
           tspan.setAttribute('x', '0');
-          tspan.setAttribute('dy', index === 0 ? '0' : '10');
+          tspan.setAttribute('dy', index === 0 ? '0' : '16');
           tspan.textContent = line;
           n.titleEl.appendChild(tspan);
         });
 
         var needsTwoLines = lines.length > 1;
-        n.h = Math.max(n.h, needsTwoLines ? 28 : 18);
+        n.h = Math.max(n.h, needsTwoLines ? 40 : 18);
         if (n.rectEl){
           n.rectEl.setAttribute('height', n.h);
           n.rectEl.setAttribute('y', -n.h / 2);
         }
-        n.titleEl.setAttribute('y', needsTwoLines ? '-3' : '0');
+        n.titleEl.setAttribute('y', needsTwoLines ? '-6' : '0');
         n.titleEl.style.display = lines.length ? 'block' : 'none';
       });
     }
