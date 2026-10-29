@@ -4,7 +4,7 @@ format:
   html: default
 ---
 
-### Kontakt & Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+### Kontakt & Verantwortlich für den Inhalt nach §&#8239;18 Abs.&#8239;2 MStV
 
 Dr. David Löwenstein  
 Institut für Philosophie  
@@ -27,7 +27,7 @@ Wir übernehmen keine Haftung für Aktualität, Richtigkeit und Vollständigkeit
 
 Namentlich gekennzeichnete Beiträge, die auf der Website öffentlich zugänglich gemacht werden, geben die Meinung der namentlich als Autor:in genannten Person und nicht immer unsere Meinung als Website-Verantwortliche wieder.
 
-Gemäß §§ 7 ff. DDG sind wir für fremde Inhalte, die wir für Nutzende veröffentlichen, außer in den gesetzlich genannten Ausnahmefällen, nicht verantwortlich, sofern
+Gemäß §§&#8239;7&#8239;ff. DDG sind wir für fremde Inhalte, die wir für Nutzende veröffentlichen, außer in den gesetzlich genannten Ausnahmefällen, nicht verantwortlich, sofern
 
 1. wir keine Kenntnis von der rechtswidrigen Handlung oder der Information haben und uns im Falle von Schadensersatzansprüchen auch keine Tatsachen oder Umstände bekannt sind, aus denen die rechtswidrige Handlung oder die Information offensichtlich wird, oder
 2. wir unverzüglich tätig geworden sind, um die Information zu entfernen oder den Zugang zu ihr zu sperren, sobald wir diese Kenntnis erlangt haben.
