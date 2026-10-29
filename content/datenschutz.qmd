@@ -16,7 +16,7 @@ III. Informationen zur Datenverarbeitung
 
 ## I. Informationen über uns als Verantwortliche
 
-Verantwortliche Anbieterin dieses Internetauftritts im datenschutzrechtlichen Sinne ist
+Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist
 
 Dr. David Löwenstein  
 Institut für Philosophie  
@@ -60,20 +60,11 @@ Das ist erforderlich, um unsere Website anzuzeigen und die Stabilität und Siche
 
 Es erfolgt kein Tracking und wir haben auf diese Daten keinen direkten Zugriff.
 
-Wir setzen für die Zurverfügungstellung unserer Website folgenden Hoster ein:
-
-GitHub Inc.    
-88 Colin P Kelly Jr St  
-San Francisco, CA 94107    
-United States
-
-Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in unseren Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.
+Wir setzen für die Zurverfügungstellung unserer Website folgenden Hoster ein: GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States. Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in unseren Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.
 
 Weitere Informationen zu Widerspruchs- und Beseitigungsmöglichkeiten gegenüber GitHub finden Sie unter: [Github Privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer Interessenabwägung zu ermitteln.
-
-Die Daten werden gelöscht, sobald der Zweck der Verarbeitung entfällt.
+Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer Interessenabwägung zu ermitteln. Die Daten werden gelöscht, sobald der Zweck der Verarbeitung entfällt.
 
 Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Die Funktionsfähigkeit der Website ist ohne die Verarbeitung nicht gewährleistet.
 
@@ -91,4 +82,4 @@ Untersagt ist hiermit ausdrücklich die Nutzung aller auf dieser Website veröff
 
 ## Quellen
 
-Teile dieser Datenschutzerklärung basieren auf der [Muster-Datenschutzerklärung](https://www.xn--generator-datenschutzerklrung-pqc.de/) der [Anwaltskanzlei Weiß & Partner](https://www.xn--bewertung-lschen24-n3b.de/), sowie auf [OPR Muster Github Pages](https://opr.vc/docs/hosting/github_pages/).
+Teile dieser Datenschutzerklärung basieren auf der [Muster-Datenschutzerklärung](https://www.xn--generator-datenschutzerklrung-pqc.de/) der [Anwaltskanzlei Weiß & Partner](https://www.xn--bewertung-lschen24-n3b.de/) sowie auf [OPR Muster Github Pages](https://opr.vc/docs/hosting/github_pages/).
