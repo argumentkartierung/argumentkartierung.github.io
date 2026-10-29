@@ -47,7 +47,7 @@ Ihre bei Nutzung unseres Internetauftritts verarbeiteten Daten werden gelöscht 
 
 ### 1. Cookies
 
-Wir setzen nur technisch notwendige Cookies ein (z. B. zur Speicherung des gewählten Themes). Rechtsgrundlage ist [Art. 6 Abs. 1 lit. f) DSGVO](http://dejure.org/gesetze/DSGVO/6.html "Art. 6 DSGVO: Rechtmäßigkeit der Verarbeitung") i. V. m. [§ 25 Abs. 2 Nr. 2 TDDDG](https://dejure.org/gesetze/TDDDG/25.html). Tracking-Cookies setzen wir nicht ein. Sie können Cookies in Ihrem Browser jederzeit löschen oder blockieren; dann sind ggf. nicht alle Funktionen nutzbar (z. B. das Umschalten zwischen verschiedenen Themes).
+Wir setzen nur technisch notwendige Cookies ein (z. B. zur Speicherung des gewählten Themes). Rechtsgrundlage ist [Art. 6 Abs. 1 lit. f) DSGVO](http://dejure.org/gesetze/DSGVO/6.html "Art. 6 DSGVO: Rechtmäßigkeit der Verarbeitung") i. V. m. [§ 25 Abs. 2 Nr. 2 TDDDG](https://dejure.org/gesetze/TDDDG/25.html). Tracking-Cookies setzen wir nicht ein. Sie können Cookies in Ihrem Browser jederzeit löschen oder blockieren; dann sind ggf. nicht alle Funktionen nutzbar (z. B. das Umschalten zwischen verschiedenen Themes).
 
 
 ### 2. Serverdaten und Hosting mit Github Pages
@@ -68,7 +68,7 @@ GitHub hat Compliance-Maßnahmen für internationale Datenübermittlungen umgese
 
 Diese Website nutzt [GoatCounter](https://www.goatcounter.com/), einen datenschutzfreundlichen Analysedienst. GoatCounter speichert keine personenbezogenen Daten, setzt keine Cookies und erstellt keine individuellen Nutzendenprofile. Es werden lediglich aggregierte Statistiken gespeichert (Seitenaufrufe, Referrer, ungefährer Standort auf Länderebene, Browser und Bildschirmgröße). Auch auf dem genutzten Endgerät wird nichts gespeichert oder ausgelesen.
 
-GoatCounter wird betrieben von Martin Tournoij und gehostet in der EU. Die Verarbeitung erfolgt auf Grundlage von [Art. 6 Abs. 1 lit. f) DSGVO](http://dejure.org/gesetze/DSGVO/6.html) (berechtigtes Interesse an der Analyse der Websitenutzung). Weitere Informationen finden sich in der [__GoatCounter Privacy Policy__](https://www.goatcounter.com/help/privacy).
+GoatCounter wird betrieben von Martin Tournoij und gehostet in der EU. Die Verarbeitung erfolgt auf Grundlage von [Art. 6 Abs. 1 lit. f DSGVO](http://dejure.org/gesetze/DSGVO/6.html) (berechtigtes Interesse an der Analyse der Websitenutzung). Weitere Informationen finden sich in der [__GoatCounter Privacy Policy__](https://www.goatcounter.com/help/privacy).
 
 ### 4. Widerspruch gegen die Nutzung von Inhalten für KI-Training
 
