@@ -13,6 +13,12 @@ body {
   --accent: #18bc9c;
 }
 
+.inline-logo {
+  height: 1em;          /* scales to font size */
+  width: auto;          /* keeps the aspect ratio */
+  vertical-align: -0.025em;  /* nudge to sit on the baseline */
+}
+
 .landing-hero {
   border: 1px solid var(--bs-border-color, #dee2e6);
   border-radius: 0.85rem;
