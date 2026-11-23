@@ -1,5 +1,5 @@
 ---
-title: "Kontroversen begleiten mit Argumentkarten"
+title: Kontroversen begleiten mit <img class="inline-logo" src="/content/images/Logo_beta.svg" alt="A">rgumentkarten
 format:
   html: default
 ---
