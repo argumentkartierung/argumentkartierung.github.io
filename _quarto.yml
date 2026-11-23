@@ -13,11 +13,12 @@ lang: de
 
 
 website:
-  title: <img class="inline-logo" src="/content/images/Logo.svg" alt="A">rgumentkartierung
+  title: Argumentkartierung
   description: "Kontroversen begleiten mit Argumentkarten"
   site-url: https://argumentkartierung.de/
   favicon: content/images/Logo.svg
   navbar:
+    title: '<img class="inline-logo" src="/content/images/Logo.svg" alt="A">rgumentkartierung'
     background: primary
     pinned: true
     search: true
