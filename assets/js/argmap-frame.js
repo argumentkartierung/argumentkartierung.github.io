@@ -184,7 +184,7 @@
       var spanS = maxS - minS;
       var padX = 90, padY = 48;
       var rowStep = o.rowGap || (H - padY * 2) / Math.max(o.maxDepth - 1, 1);
-      var topY = o.rowGap ? Math.max((H - rowStep * (o.maxDepth - 1)) / 2, padY * .5) : padY;
+      var topY = 20; //o.rowGap ? Math.max((H - rowStep * (o.maxDepth - 1)) / 2, padY * .5) : padY;
       nodes.forEach(function (n){
         n.tx = spanS > 0 ? padX + ((n.slot - minS) / spanS) * (W - padX * 2) + n.jx : W / 2 + n.jx;
         n.ty = topY + n.rank * rowStep + n.jy;
