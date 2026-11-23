@@ -213,7 +213,7 @@
       if (!cand.length) return false;
       var parent = cand[0], best = -1;
       cand.forEach(function (n){
-        var w = Math.random() / (1 + n.children.length);
+        var w = Math.random() / (1 + 0.2 * n.children.length);
         if (w > best){ best = w; parent = n; }
       });
 
