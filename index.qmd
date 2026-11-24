@@ -41,7 +41,7 @@ Das Projekt *Kontroversen begleiten mit Argumentkarten* entwickelt Lehrkonzepte 
 ::: {.landing-cards}
 
 ::: {.landing-card}
-[]{.icon}🎯
+<!--[]{.icon}🎯-->
 
 ### Ziele
 Wir entwickeln Kurskonzepte und frei verfügbare Bildungsmaterialien in mehreren Formaten.
@@ -50,7 +50,7 @@ Wir entwickeln Kurskonzepte und frei verfügbare Bildungsmaterialien in mehreren
 :::
 
 ::: {.landing-card}
-[]{.icon}⚙️
+<!--[]{.icon}⚙️-->
 
 ### Methoden
 Im Mittelpunkt steht die Methode der Argumentkartierung und deren Umsetzung mit Argdown.
@@ -59,7 +59,7 @@ Im Mittelpunkt steht die Methode der Argumentkartierung und deren Umsetzung mit 
 :::
 
 ::: {.landing-card}
-[]{.icon}🤝
+<!--[]{.icon}🤝-->
 
 ### Team
 In unserem Team arbeiten Lehrende und Studierende eng zusammen.
