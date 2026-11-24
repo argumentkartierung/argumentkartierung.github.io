@@ -1,6 +1,6 @@
 ---
-title: 'Kontroversen begleiten mit <span style="white-space: nowrap"><img class="inline-logo" src="/content/images/Logo.svg" alt="A">rgumentkarten</span>'
-pagetitle: 'Kontroversen begleiten mit Argumentkarten'
+title: '<span style="white-space: nowrap"><img class="inline-logo" src="/content/images/Logo.svg" alt="A">rgumentkartierung</span>'
+pagetitle: 'Argumentkartierung'
 format:
   html: default
 ---
